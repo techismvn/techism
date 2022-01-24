@@ -1,0 +1,8 @@
+.nav:hover span {
+  color: white;
+}
+
+/* Ghi đè border-bottom mặc định của antd */
+.nav::after {
+  border-bottom: none !important;
+}
