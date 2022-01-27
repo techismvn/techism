@@ -9,9 +9,11 @@ import {
   SELECTED_TEXT_COLOR,
   UNSELECTED_TEXT_COLOR,
 } from '../../commons/constants';
+import ConsultModal from '../ConsultModal';
 
 const Navigation = () => {
   const [current, setCurrent] = useState({});
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     setCurrent((prev) => ({ ...prev, isSelected: data[0].name }));
@@ -63,7 +65,10 @@ const Navigation = () => {
           </Fragment>
         ))}
       </Menu>
-      <Button style={{ fontWeight: 'bold' }}>NHẬN TƯ VẤN</Button>
+      <Button style={{ fontWeight: 'bold' }} onClick={() => setVisible(true)}>
+        NHẬN TƯ VẤN
+      </Button>
+      {visible && <ConsultModal toggleVisible={[visible, setVisible]} />}
     </div>
   );
 };
