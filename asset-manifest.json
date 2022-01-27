@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techism/static/css/main.c68ba25e.css",
-    "main.js": "/techism/static/js/main.4ca879a0.js",
+    "main.css": "/techism/static/css/main.a188d54d.css",
+    "main.js": "/techism/static/js/main.9388b79e.js",
     "static/js/787.5d2a10b0.chunk.js": "/techism/static/js/787.5d2a10b0.chunk.js",
     "static/media/TECHISMSolution.svg": "/techism/static/media/TECHISMSolution.07ab3af720c08531cf8399313fb55392.svg",
     "static/media/Instagram.svg": "/techism/static/media/Instagram.487898cf671442d9c7bf512810a9c68d.svg",
@@ -10,12 +10,12 @@
     "index.html": "/techism/index.html",
     "static/media/Linkedin.svg": "/techism/static/media/Linkedin.0c6a090be90184527bbb9cbb1caf90bd.svg",
     "static/media/Facebook.svg": "/techism/static/media/Facebook.5032b4a76fea29bee2534340ab1469a2.svg",
-    "main.c68ba25e.css.map": "/techism/static/css/main.c68ba25e.css.map",
-    "main.4ca879a0.js.map": "/techism/static/js/main.4ca879a0.js.map",
+    "main.a188d54d.css.map": "/techism/static/css/main.a188d54d.css.map",
+    "main.9388b79e.js.map": "/techism/static/js/main.9388b79e.js.map",
     "787.5d2a10b0.chunk.js.map": "/techism/static/js/787.5d2a10b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c68ba25e.css",
-    "static/js/main.4ca879a0.js"
+    "static/css/main.a188d54d.css",
+    "static/js/main.9388b79e.js"
   ]
 }
