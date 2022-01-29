@@ -6,7 +6,7 @@ import FacebookIcon from '../../assets/icons/Facebook.svg'
 import InstagramIcon from '../../assets/icons/Instagram.svg'
 import LinkedinIcon from '../../assets/icons/Linkedin.svg'
 import TwitterIcon from '../../assets/icons/Twitter.svg'
-import { COMPANY_NAME, DOMAIN_EXTENSION, EMAIL, ADDRESS, PHONE } from '../../commons/constants'
+import { COMPANY_NAME, EMAIL, ADDRESS, PHONE } from '../../commons/constants'
 import ConsultModal from '../ConsultModal'
 
 const mediaDatas = [
@@ -39,7 +39,6 @@ const mediaDatas = [
 
 function Footer() {
     const firstCharUpper = COMPANY_NAME[0].toUpperCase() + COMPANY_NAME.substring(1);
-    const domainName = firstCharUpper + DOMAIN_EXTENSION;
 
     const [visible, setVisible] = useState(false);
     return (
@@ -105,8 +104,3 @@ function Footer() {
 }
 
 export default Footer
-
-/* <div className='footer_bottom footer_width'>
-                <div className='copyright'>Copyright {domainName}</div>
-                <div className='powerby'>Powered by {domainName}</div>
-            </div> */
