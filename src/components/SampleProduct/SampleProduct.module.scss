@@ -1,0 +1,21 @@
+.sampleProduct {
+  .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #2C2C2C;
+    margin-bottom: 32px;
+  }
+
+  .productWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .product{
+        margin-bottom: 24px;
+        margin-right: 10px;
+    }
+  }
+}

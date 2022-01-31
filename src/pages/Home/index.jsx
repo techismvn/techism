@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import Navigation from '../../components/Navigation';
 import Copyright from '../../components/Copyright';
 import CustomerComment from '../../components/CustomerComment';
+import SampleProduct from '../../components/SampleProduct';
 import { Container } from '../../components/styles';
 import useWindowDimensions from '../../commons/useWindowDimensions';
 import CommentBg from '../../assets/images/comment_bg.svg';
@@ -16,6 +17,9 @@ const Home = () => {
     <>
       <Container backgroundColor={constants.BACKGROUND_COLOR}>
         <Navigation />
+      </Container>
+      <Container paddingVertical='75' paddingHorizontal={paddingByWidth + constants.PADDING_SAMPLE_PRODUCT + 'px'}>
+        <SampleProduct />
       </Container>
       <Container backgroundImage={CommentBg} height='580' paddingVertical='102' paddingHorizontal={paddingByWidth + constants.PADDING_CUS_COMMENT+ 'px'}>
         <CustomerComment />
