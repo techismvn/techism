@@ -1,5 +1,5 @@
 import styles from './SampleProduct.module.scss';
-import {data} from './data'
+import { data } from './data'
 
 function SampleProduct() {
 
@@ -10,7 +10,9 @@ function SampleProduct() {
             </div>
             <div className={styles.productWrapper}>
                 {data.map((product, index) => (
-                    <img className={styles.product} key={index} src={product.image} alt={product.alt} height='269' width='404' />
+                    <div  key={index} className={styles.imgWrapper}>
+                        <img className={styles.productImg} src={product.image} alt={product.alt} height='269' width='404' />
+                    </div>
                 ))}
             </div>
         </div>

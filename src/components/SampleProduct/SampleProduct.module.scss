@@ -4,18 +4,29 @@
     font-size: 36px;
     line-height: 130%;
     text-align: center;
-    color: #2C2C2C;
+    color: #2c2c2c;
     margin-bottom: 32px;
   }
 
-  .productWrapper{
+  .productWrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    .product{
-        margin-bottom: 24px;
-        margin-right: 10px;
+    .imgWrapper {
+      height: 269px;
+      width: 404px;
+      overflow: hidden;
+      margin-bottom: 24px;
+      margin-right: 10px;
+
+      .productImg {
+        transition: transform 0.3s linear;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
     }
   }
 }

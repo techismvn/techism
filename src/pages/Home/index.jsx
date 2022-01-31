@@ -1,5 +1,4 @@
 import React from 'react';
-import {use} from 'react';
 import * as constants from '../../commons/constants';
 import Footer from '../../components/Footer';
 import Navigation from '../../components/Navigation';
