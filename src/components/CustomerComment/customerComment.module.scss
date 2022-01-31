@@ -1,0 +1,30 @@
+:root {
+    --swiper-theme-color: white;
+}
+
+.cusReview {
+
+    .title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+    }
+
+    .review {
+        display: flex;
+        height: fit-content;
+
+        .arrowContainer {
+            height: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .slideWrapper {
+            padding: 0 24px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@mixin tablet {
+    @media (max-width: 1439px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 1000px) {
+        @content;
+    }
+}
+
+.swiper{
+    @include tablet {
+        width: 832px;
+    }
+
+    @include mobile {
+        width: 404px;
+    }
+}
